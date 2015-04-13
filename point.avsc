@@ -1,0 +1,8 @@
+{"namespace": "typecheck",
+ "type": "record",
+ "name": "Point",
+ "fields": [
+   {"name": "x", "type": "double"},
+   {"name": "y", "type": "double"}
+ ]
+}

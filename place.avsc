@@ -1,0 +1,10 @@
+{"namespace": "typecheck",
+ "type": "record",
+ "name": "Place",
+ "fields": [
+   {"name": "name", "type": "string"},
+   {"name": "location", "type": "typecheck.Point"},
+   {"name": "review", "type": ["typecheck.Review", "null"]}
+ ]
+}
+

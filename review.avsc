@@ -1,0 +1,8 @@
+{"namespace": "typecheck",
+ "type": "record",
+ "name": "Review",
+ "fields": [
+   {"name": "rating", "type": "int"},
+   {"name": "text", "type": ["string", "null"]}
+ ]
+}
